@@ -9,11 +9,11 @@ RULES:\
 6)Only the following libc functions are allowed : malloc(3), free(3) and write(2), and their usage is restricted. For example - it's not allowed to use strlen() function but you are free to use ft\_strlen (your own one function). Make sure you have implemented all the necessary tests in your functions.\
 7)A string must ALWAYS end with a ’\0’, even if it is not included in the function’s description, unless explicitly stated otherwise.\
 8)Your mylib.h file can contain macros and typedefs if needed.\
-9)It is forbidden to use global variables\
+9)It is forbidden to use global variables
 
 
 
-Functions:\
+Functions:
 
 1part: (std functions with description in man)\
 memset • bzero • memcpy • memccpy • memmove • memchr • memcmp \
