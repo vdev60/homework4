@@ -3,3 +3,8 @@
 *.swp
 *.swo
 .vscode/*
+/ft_library/.vscode/*
+/ft_library/*.out
+/ft_library/*.o
+/ft_library/*.swp
+/ft_library/*.swo
