@@ -15,9 +15,9 @@ void test_ft_memset(){
     memset(s1, 65, 4);
     printf("Testing *ft_memset* ----> ");
     if( !(ft_memcmp(&s,&s1,ft_strlen(s))) ){
-        printf("Ok!\n");
+        printf("Ok!");
     }else{
-        printf("Test is fail!\n");
+        printf("Test is fail!");
     }
 }
 
@@ -30,9 +30,9 @@ void test_ft_bzero(){
 
     printf("Testing *ft_bzero* ----> ");
     if( !(ft_memcmp(&arr,&arr1,10)) ){
-        printf("Ok!\n");
+        printf("Ok!");
     }else{
-        printf("Test is fail!\n");
+        printf("Test is fail!");
     }
 }
 
@@ -47,9 +47,9 @@ void test_ft_memcpy(){
 
     printf("Testing *ft_memcpy* ----> ");
     if( !(ft_memcmp(&str1,&str2,4)) ){
-        printf("Ok!\n");
+        printf("Ok!");
     }else{
-        printf("Test is fail!\n");
+        printf("Test is fail!");
     }
 }
 
@@ -66,9 +66,9 @@ void test_ft_memccpy(){
 
     printf("Testing *ft_memccpy* ----> ");
     if( !(ft_memcmp(&str1,&str2,7)) ){      //compare only until  the specified symbol becouse of after that we have random values
-        printf("Ok!\n");
+        printf("Ok!");
     }else{
-        printf("Test is fail!\n");
+        printf("Test is fail!");
     }
 }
 
@@ -84,9 +84,9 @@ void test_ft_memmove(){
 
     printf("Testing *ft_memove* ----> ");
     if( !(ft_memcmp(&str1,&str2,6)) ){      
-        printf("Ok!\n");
+        printf("Ok!");
     }else{
-        printf("Test is fail!\n");
+        printf("Test is fail!");
     }
 }
 
@@ -100,9 +100,9 @@ void test_ft_memchr(){
 
     printf("Testing *ft_memchr* ----> ");
     if( res1 == res2 ){      
-        printf("Ok!\n");
+        printf("Ok!");
     }else{
-        printf("Test is fail!\n");
+        printf("Test is fail!");
     }
 
 }
@@ -118,9 +118,9 @@ void test_ft_memcmp(){
 
     printf("Testing *ft_memcmp* ----> ");
     if( res1 == res2 ){      
-        printf("Ok!\n");
+        printf("Ok!");
     }else{
-        printf("Test is fail!\n");
+        printf("Test is fail!");
     }
 
 
@@ -140,9 +140,9 @@ void test_ft_strlen(){
 
     printf("Testing *ft_strlen* ----> ");
     if( result ){      
-        printf("Ok!\n");
+        printf("Ok!");
     }else{
-        printf("Test is fail!\n");
+        printf("Test is fail!");
     }
     
 }
@@ -155,9 +155,9 @@ void test_ft_strdub(){
 
     printf("Testing *ft_strdup* ----> ");
     if( !(ft_strcmp(s, s_dup)) ){      
-        printf("Ok!\n");
+        printf("Ok!");
     }else{
-        printf("Test is fail!\n");
+        printf("Test is fail!");
     }
 
 
@@ -171,9 +171,9 @@ void test_ft_strcpy(){
 
     printf("Testing *ft_strcpy* ----> ");
     if( !(ft_strcmp(s, s_copy)) ){      
-        printf("Ok!\n");
+        printf("Ok!");
     }else{
-        printf("Test is fail!\n");
+        printf("Test is fail!");
     }
 
     free(s_copy);
@@ -192,9 +192,9 @@ void test_ft_strncpy(){
 
     printf("Testing *ft_strncpy* ----> ");
     if( !(ft_strcmp(s_copy, s_copy1)) ){      
-        printf("Ok!\n");
+        printf("Ok!");
     }else{
-        printf("Test is fail!\n");
+        printf("Test is fail!");
     }
 
 
@@ -212,9 +212,9 @@ void test_ft_strcat(){
 
     printf("Testing *ft_strcat* ----> ");
     if( !(ft_strcmp(str1, str2)) ){      
-        printf("Ok!\n");
+        printf("Ok!");
     }else{
-        printf("Test is fail!\n");
+        printf("Test is fail!");
     }
 
 }
@@ -231,9 +231,9 @@ void test_ft_strncat(){
 
     printf("Testing *ft_strncat* ----> ");
     if( !(ft_strcmp(str1, str2)) ){      
-        printf("Ok!\n");
+        printf("Ok!");
     }else{
-        printf("Test is fail!\n");
+        printf("Test is fail!");
     }
 }
 
@@ -251,9 +251,9 @@ void test_ft_strlcat(){
 
     printf("Testing *ft_strlcat* ----> ");
     if( !(ft_strcmp(s, s1)) ){      
-        printf("Ok!\n");
+        printf("Ok!");
     }else{
-        printf("Test is fail!\n");
+        printf("Test is fail!");
     }
 
 }
@@ -269,9 +269,9 @@ void test_ft_strchr(){
 
     printf("Testing *ft_strchr* ----> ");
     if(res1 == res2){
-        printf("Ok!\n");
+        printf("Ok!");
     }else{
-        printf("Test is fail!\n");
+        printf("Test is fail!");
     }
 
 }
@@ -286,9 +286,9 @@ void test_ft_strrchr(){
 
     printf("Testing *ft_strrchr* ----> ");
     if(res1 == res2){
-        printf("Ok!\n");
+        printf("Ok!");
     }else{
-        printf("Test is fail!\n");
+        printf("Test is fail!");
     }
 
 }
@@ -304,9 +304,9 @@ void test_ft_strstr(){
 
     printf("Testing *ft_strstr* ----> ");
     if(res1 == res2){
-        printf("Ok!\n");
+        printf("Ok!");
     }else{
-        printf("Test is fail!\n");
+        printf("Test is fail!");
     }
 }
 
@@ -321,9 +321,9 @@ void test_ft_strnstr(){
 
     printf("Testing *ft_strnstr* ----> ");
     if(res1 == res2){
-        printf("Ok!\n");
+        printf("Ok!");
     }else{
-        printf("Test is fail!\n");
+        printf("Test is fail!");
     }
 }
 
@@ -335,9 +335,9 @@ void test_ft_strcmp(){
 
     printf("Testing *ft_strcmp* ----> ");
     if( ft_strcmp(str, str1) == strcmp(str, str1) ){
-        printf("Ok!\n");
+        printf("Ok!");
     }else{
-        printf("Test is fail!\n");
+        printf("Test is fail!");
     }
 }
  
@@ -348,9 +348,9 @@ void test_ft_strncmp(){
 
     printf("Testing *ft_strncmp* ----> ");
     if( ft_strncmp(str, str1, 5) == strncmp(str, str1,5) ){
-        printf("Ok!\n");
+        printf("Ok!");
     }else{
-        printf("Test is fail!\n");
+        printf("Test is fail!");
     }
 }
 
@@ -369,9 +369,9 @@ void test_ft_atoi(){
     
     printf("Testing *ft_atoi* ----> ");
     if(status){
-        printf("Ok!\n");
+        printf("Ok!");
     }else{
-        printf("Test is fail!\n");
+        printf("Test is fail!");
     }
 
 }
@@ -392,9 +392,9 @@ void test_ft_isalpha(){
     
     printf("Testing *ft_isalpha* ----> ");
     if(status){
-        printf("Ok!\n");
+        printf("Ok!");
     }else{
-        printf("Test is fail!\n");
+        printf("Test is fail!");
     }
 }
 
@@ -414,9 +414,9 @@ void test_ft_isdigit(){
     
     printf("Testing *ft_isdigit* ----> ");
     if(status){
-        printf("Ok!\n");
+        printf("Ok!");
     }else{
-        printf("Test is fail!\n");
+        printf("Test is fail!");
     }
 }
 
@@ -436,9 +436,9 @@ void test_ft_isalnum(){
     
     printf("Testing *ft_isalnum* ----> ");
     if(status){
-        printf("Ok!\n");
+        printf("Ok!");
     }else{
-        printf("Test is fail!\n");
+        printf("Test is fail!");
     }
 }
 
@@ -458,9 +458,9 @@ void test_ft_isascii(){
     
     printf("Testing *ft_isascii* ----> ");
     if(status){
-        printf("Ok!\n");
+        printf("Ok!");
     }else{
-        printf("Test is fail!\n");
+        printf("Test is fail!");
     }
 }
  
@@ -480,9 +480,9 @@ void test_ft_isprint(){
     
     printf("Testing *ft_isprint* ----> ");
     if(status){
-        printf("Ok!\n");
+        printf("Ok!");
     }else{
-        printf("Test is fail!\n");
+        printf("Test is fail!");
     }
 }
 
@@ -503,9 +503,9 @@ void test_ft_toupper(){
     
     printf("Testing *ft_toupper* ----> ");
     if(status){
-        printf("Ok!\n");
+        printf("Ok!");
     }else{
-        printf("Test is fail!\n");
+        printf("Test is fail!");
     }
 }
 
@@ -526,9 +526,9 @@ void test_ft_tolower(){
     
     printf("Testing *ft_tolower* ----> ");
     if(status){
-        printf("Ok!\n");
+        printf("Ok!");
     }else{
-        printf("Test is fail!\n");
+        printf("Test is fail!");
     }
 }
 
@@ -539,9 +539,9 @@ void test_ft_memalloc(){
     ft_strcpy(str, expected_str);
     printf("Testing *ft_memalloc* ----> ");
     if( !(ft_memcmp(str,expected_str, ft_strlen(expected_str))) ){
-        printf("Ok!\n");
+        printf("Ok!");
     }else{
-        printf("Test is fail!\n");
+        printf("Test is fail!");
     }
 
     free(str);
@@ -556,9 +556,9 @@ void test_ft_memdel(){
     ft_memdel((void *)(&str));
     printf("Testing *ft_memdel* ----> ");
     if( str == NULL ){
-        printf("Ok!\n");
+        printf("Ok!");
     }else{
-        printf("Test is fail!\n");
+        printf("Test is fail!");
     }
 
     free(str);
@@ -582,9 +582,9 @@ void test_ft_strnew(){
 
     printf("Testing *ft_strnew* ----> ");
     if( status ){
-        printf("Ok!\n");
+        printf("Ok!");
     }else{
-        printf("Test is fail!\n");
+        printf("Test is fail!");
     }
 
     free(str);
@@ -600,9 +600,9 @@ void test_ft_strdel(){
 
     printf("Testing *ft_strdel* ----> ");
     if( str == NULL){
-        printf("Ok!\n");
+        printf("Ok!");
     }else{
-        printf("Test is fail!\n");
+        printf("Test is fail!");
     }
 
 }
@@ -616,9 +616,9 @@ void test_ft_strclr(){
 
     printf("Testing *ft_strclr* ----> ");
     if( !(ft_memcmp(str, expected_str, 5))){
-        printf("Ok!\n");
+        printf("Ok!");
     }else{
-        printf("Test is fail!\n");
+        printf("Test is fail!");
     } 
     free(str);
 }
@@ -638,9 +638,9 @@ void test_ft_striter(){
 
     printf("Testing *ft_striter* ----> ");
     if( !(ft_strcmp(str, expected_str))){
-        printf("Ok!\n");
+        printf("Ok!");
     }else{
-        printf("Test is fail!\n");
+        printf("Test is fail!");
     }
     free(str);
 }
@@ -660,9 +660,9 @@ void test_ft_striteri(){
 
     printf("Testing *ft_striter* ----> ");
     if( !(ft_strcmp(str, expected_str))){
-        printf("Ok!\n");
+        printf("Ok!");
     }else{
-        printf("Test is fail!\n");
+        printf("Test is fail!");
     }
 
     free(str);
@@ -681,9 +681,9 @@ void test_ft_strmap(){
 
     printf("Testing *ft_strmap* ----> ");
     if( !(ft_strcmp(new_str, expected_str))){
-        printf("Ok!\n");
+        printf("Ok!");
     }else{
-        printf("Test is fail!\n");
+        printf("Test is fail!");
     }
     free(new_str);
 }
@@ -705,9 +705,9 @@ void test_ft_strmapi(){
 
     printf("Testing *ft_strmapi* ----> ");
     if( !(ft_strcmp(new_str, expected_str))){
-        printf("Ok!\n");
+        printf("Ok!");
     }else{
-        printf("Test is fail!\n");
+        printf("Test is fail!");
     }
     free(new_str);
 }
@@ -718,9 +718,9 @@ void test_ft_strequ(){
 
     printf("Testing *ft_strequ* ----> ");
     if( ft_strequ(str1, str2) == 1) {
-        printf("Ok!\n");
+        printf("Ok!");
     }else{
-        printf("Test is fail!\n");
+        printf("Test is fail!");
     }
 
 }
@@ -731,9 +731,9 @@ void test_ft_strnequ(){
 
     printf("Testing *ft_strnequ* ----> ");
     if( ft_strnequ(str1, str2,8) == 1) {
-        printf("Ok!\n");
+        printf("Ok!");
     }else{
-        printf("Test is fail!\n");
+        printf("Test is fail!");
     }
 }
 
@@ -744,9 +744,9 @@ void test_ft_strsub(){
 
     printf("Testing *ft_strsub* ----> ");
     if( !(ft_strcmp(new_str, expected_str)) ) {
-        printf("Ok!\n");
+        printf("Ok!");
     }else{
-        printf("Test is fail!\n");
+        printf("Test is fail!");
     }
 
     free(new_str);
@@ -762,9 +762,9 @@ void test_ft_strjoin(){
 
     printf("Testing *ft_strjoin* ----> ");
     if( !(ft_strcmp(str, expected_str)) ) {
-        printf("Ok!\n");
+        printf("Ok!");
     }else{
-        printf("Test is fail!\n");
+        printf("Test is fail!");
     }
 
     free(str);
@@ -777,9 +777,9 @@ void test_ft_strtrim(){
 
     printf("Testing *ft_strtrim* ----> ");
     if( !(ft_strcmp(str, expected_str)) ) {
-        printf("Ok!\n");
+        printf("Ok!");
     }else{
-        printf("Test is fail!\n");
+        printf("Test is fail!");
     }
 }
 
@@ -805,9 +805,9 @@ void test_ft_strsplit(){
 
     printf("Testing *ft_strsplit* ----> ");
     if(result) {
-        printf("Ok!\n");
+        printf("Ok!");
     }else{
-        printf("Test is fail!\n");
+        printf("Test is fail!");
     }
     
 }
@@ -832,9 +832,9 @@ void test_ft_itoa(){
 
     printf("Testing *ft_itoa* ----> ");
     if(result) {
-        printf("Ok!\n");
+        printf("Ok!");
     }else{
-        printf("Test is fail!\n");
+        printf("Test is fail!");
     }
 
 }   
@@ -853,9 +853,9 @@ void test_ft_lstnew(){
     t = ft_lstnew(str, 5);
     printf("Testing *ft_lstnew* ----> ");
     if(!(ft_memcmp(t ->content, expected_str,5))){
-        printf("Ok!\n");
+        printf("Ok!");
     }else{
-        printf("Test is fail!\n");
+        printf("Test is fail!");
     }
 
     ft_lstdelone(&t, f_del);
@@ -873,9 +873,9 @@ void test_ft_lstdelone(){
 
     printf("Testing *ft_lstdelone* ----> ");
     if(t == NULL){
-        printf("Ok!\n");
+        printf("Ok!");
     }else{
-        printf("Test is fail!\n");
+        printf("Test is fail!");
     }
 
 
@@ -896,9 +896,9 @@ void test_ft_lstdel(){
 
     printf("Testing *ft_lstdel* ----> ");
     if(t == NULL ){
-        printf("Ok!\n");
+        printf("Ok!");
     }else{
-        printf("Test is fail!\n");
+        printf("Test is fail!");
     }
 
 
@@ -937,9 +937,9 @@ void test_ft_lstadd(){
     
     printf("Testing *ft_lstadd* ----> ");
     if(i == 4){
-        printf("Ok!\n");
+        printf("Ok!");
     }else{
-        printf("Test is fail!\n");
+        printf("Test is fail!");
     }
 }
 
@@ -976,9 +976,9 @@ void test_ft_lstiter(){
 
     printf("Testing *ft_lstiter* ----> ");
     if(result){
-        printf("Ok!\n");
+        printf("Ok!");
     }else{
-        printf("Test is fail!\n");
+        printf("Test is fail!");
     }
 
     ft_lstdel(&list1, f_del);
@@ -1032,68 +1032,146 @@ void test_ft_map(){
 
     printf("Testing *ft_lstmap* ----> ");
     if(i == j){
-        printf("Ok!\n");
+        printf("Ok!");
     }else{
-        printf("Test is fail!\n");
+        printf("Test is fail!");
     }
 
     ft_lstdel(&new, f_del);
     ft_lstdel(&t, f_del);
 } 
 
+
+void test_put_functions(){
+    ft_putchar('A');
+    printf("\n");
+    ft_putstr("Hello!");
+    printf("\n");
+    ft_putendl("Hello!");
+    ft_putnbr(12345);
+    printf("\n");
+    mode_t mode = S_IRUSR | S_IWUSR | S_IRGRP | S_IROTH; ;
+
+    int filedesc = open("file.txt", O_WRONLY | O_CREAT | O_TRUNC , mode);
+    ft_putchar_fd('A', filedesc);
+    ft_putstr_fd("Hello world!", filedesc);
+    ft_putendl_fd("Hello world!", filedesc);
+    ft_putnbr_fd(43534, filedesc);
+    close(filedesc);
+
+
+
+
+}
+
 int main(){
-    
+    int counter = 0;
+    int number_tests = 58;
     test_ft_memset();
+    printf(" %d/%d\n", ++counter, number_tests);
     test_ft_bzero();
+    printf(" %d/%d\n", ++counter, number_tests);
     test_ft_memcpy();
+    printf(" %d/%d\n", ++counter, number_tests);
     test_ft_memccpy();
+    printf(" %d/%d\n", ++counter, number_tests);
     test_ft_memmove();
+    printf(" %d/%d\n", ++counter, number_tests);
     test_ft_memchr();
+    printf(" %d/%d\n", ++counter, number_tests);
     test_ft_memcmp();
+    printf(" %d/%d\n", ++counter, number_tests);
     test_ft_strlen();
+    printf(" %d/%d\n", ++counter, number_tests);
     test_ft_strdub();
+    printf(" %d/%d\n", ++counter, number_tests);
     test_ft_strcpy();
+    printf(" %d/%d\n", ++counter, number_tests);
     test_ft_strncpy();
+    printf(" %d/%d\n", ++counter, number_tests);
     test_ft_strcat();
+    printf(" %d/%d\n", ++counter, number_tests);
     test_ft_strncat();
+    printf(" %d/%d\n", ++counter, number_tests);
     test_ft_strlcat();
+    printf(" %d/%d\n", ++counter, number_tests);
     test_ft_strchr();
+    printf(" %d/%d\n", ++counter, number_tests);
     test_ft_strrchr();
+    printf(" %d/%d\n", ++counter, number_tests);
     test_ft_strstr();
+    printf(" %d/%d\n", ++counter, number_tests);
     test_ft_strnstr();
+    printf(" %d/%d\n", ++counter, number_tests);
     test_ft_strcmp();
+    printf(" %d/%d\n", ++counter, number_tests);
     test_ft_strncmp();
+    printf(" %d/%d\n", ++counter, number_tests);
     test_ft_atoi();
+    printf(" %d/%d\n", ++counter, number_tests);
     test_ft_isalpha();
+    printf(" %d/%d\n", ++counter, number_tests);
     test_ft_isdigit();
+    printf(" %d/%d\n", ++counter, number_tests);
     test_ft_isdigit();
+    printf(" %d/%d\n", ++counter, number_tests);
     test_ft_isalnum();
+    printf(" %d/%d\n", ++counter, number_tests);
     test_ft_isascii();
+    printf(" %d/%d\n", ++counter, number_tests);
     test_ft_isprint();
+    printf(" %d/%d\n", ++counter, number_tests);
     test_ft_toupper();
+    printf(" %d/%d\n", ++counter, number_tests);
     test_ft_tolower();
+    printf(" %d/%d\n", ++counter, number_tests);
     test_ft_memalloc();
+    printf(" %d/%d\n", ++counter, number_tests);
     test_ft_memdel(); 
+    printf(" %d/%d\n", ++counter, number_tests);
     test_ft_strnew(); 
+    printf(" %d/%d\n", ++counter, number_tests);
     test_ft_strdel();
+    printf(" %d/%d\n", ++counter, number_tests);
     test_ft_strclr();
+    printf(" %d/%d\n", ++counter, number_tests);
     test_ft_striter();
+    printf(" %d/%d\n", ++counter, number_tests);
     test_ft_striteri();
+    printf(" %d/%d\n", ++counter, number_tests);
     test_ft_strmap();
+    printf(" %d/%d\n", ++counter, number_tests);
     test_ft_strmapi();
+    printf(" %d/%d\n", ++counter, number_tests);
     test_ft_strequ();
+    printf(" %d/%d\n", ++counter, number_tests);
     test_ft_strnequ();
-    test_ft_strsub();// ?
+    printf(" %d/%d\n", ++counter, number_tests);
+    test_ft_strsub();
+    printf(" %d/%d\n", ++counter, number_tests);
     test_ft_strjoin();
+    printf(" %d/%d\n", ++counter, number_tests);
     test_ft_strtrim();
+    printf(" %d/%d\n", ++counter, number_tests);
     test_ft_strsplit();
+    printf(" %d/%d\n", ++counter, number_tests);
     test_ft_itoa();
+    printf(" %d/%d\n", ++counter, number_tests);
     test_ft_lstnew();
+    printf(" %d/%d\n", ++counter, number_tests);
     test_ft_lstdelone();
+    printf(" %d/%d\n", ++counter, number_tests);
     test_ft_lstdel();
+    printf(" %d/%d\n", ++counter, number_tests);
     test_ft_lstadd();
+    printf(" %d/%d\n", ++counter, number_tests);
     test_ft_lstiter();
+    printf(" %d/%d\n", ++counter, number_tests);
     test_ft_map();
+    printf(" %d/%d\n", ++counter, number_tests);
+    printf("Testing *put functions* ----> ");
+    printf(" %d - %d\n", ++counter, number_tests);
+    test_put_functions();
 
     return 0;
 }
