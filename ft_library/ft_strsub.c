@@ -10,7 +10,7 @@ char * ft_strsub(char const *s, unsigned int start, size_t len){
     size_t i = 0;
     while (s[i])
     {
-        if((unsigned int)s[i] == start){
+        if(start == i){
             ft_strncpy(sub_str, &s[i], len);
             sub_str[len +1] = '\0';
             break;

@@ -1,4 +1,6 @@
 #include "ft_library.h"
+#include <stdio.h>
+
 // "a*b**a***s", '*' - ["a","b","a","s"]
 char ** ft_strsplit(char const *s, char c){
     char **words;
@@ -25,7 +27,7 @@ char ** ft_strsplit(char const *s, char c){
         temp = 0;
     }
     
-    words = (char **)malloc(counter_words* sizeof(char *));
+    words = (char **)malloc((counter_words+1)* sizeof(char *));
     if (words == NULL)
         return NULL;
 
@@ -48,7 +50,7 @@ char ** ft_strsplit(char const *s, char c){
         if(len_word > 0)
         {
             
-            words[counter_words] = ft_strnew(len_word );
+            words[counter_words] = malloc(len_word+1);
             int k = 0;
             while (s[i_p] != c && s[i_p] != '\0')
             {
@@ -56,13 +58,13 @@ char ** ft_strsplit(char const *s, char c){
                 i_p++;
                 k++;
             }
-            
+             words[len_word+1] = '\0';
             counter_words++;
         }
         len_word = 0;
         i--;
     }  
-
+    words[counter_words] = '\0';
     return words;
 }
 
